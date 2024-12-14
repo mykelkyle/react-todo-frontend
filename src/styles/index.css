@@ -218,7 +218,7 @@ table .list_item {
 }
 
 table .list_item .check {
-  background: transparent url("../images/checkbox.png") no-repeat;
+  background: transparent url("/images/checkbox.png") no-repeat;
   position: absolute;
   top: 18px;
   left: 15px;
@@ -227,7 +227,7 @@ table .list_item .check {
 }
 
 table td input[type="checkbox"]:checked + .check {
-  background-image: url("../images/checked.png");
+  background-image: url("/images/checked.png");
 }
 .delete img:hover {
   cursor: pointer;
@@ -326,9 +326,8 @@ input[type="checkbox"] + section {
   display: none;
 }
 #form_modal {
-  display: none;
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 50%;
   margin-left: -287.5px;
   width: 575px;
@@ -336,7 +335,6 @@ input[type="checkbox"] + section {
   z-index: 2;
 }
 #modal_layer {
-  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
